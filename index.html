@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartField360</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./images/logo.png" alt="SmartField360 Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#nosotros">Acerca de Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="./login.html" class="cta-btn">Iniciar Sesión</a></li>
+                <li><a href="./signup.html" class="cta-btn">Registrarse</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="hero">
+            <img src="./images/carrusel.png" alt="carrusel">
+        </div>
+    </main>
+    <!-- Servicios -->
+    <section id="servicios" class="servicios">
+        <h2>Servicios</h2>
+        <div class="service-container">
+            <div class="service-card">
+                <img src="./images/service1.png" alt="Detector de plagas y enfermedades">
+                <h3>Detector de Plagas y Enfermedades</h3>
+                <p>Detecta diferentes plagas y enfermedades en etapa temprana.</p>
+            </div>
+            <div class="service-card">
+                <img src="./images/service2.png" alt="Administrador de recursos">
+                <h3>Administrador de Recursos</h3>
+                <p>Aumenta la eficiencia de recursos y reduce el costo de producción.</p>
+            </div>
+            <div class="service-card">
+                <img src="./images/service3.png" alt="Calculadora Financiera">
+                <h3>Calculadora Financiera</h3>
+                <p>Calculadora basada en datos, prediciendo las ganancias de las cosechas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios" class="beneficios">
+        <h2>Beneficios</h2>
+        <div id="benefits">
+            <div class="benefit-list">
+            <ul>
+                <li>Aumento del rendimiento de los cultivos</li>
+                <li>Reducción de costos operativos</li>
+                <li>Mejora de la calidad y la consistencia de los productos agrícolas</li>
+                <li>Toma de decisiones informada basada en datos precisos</li>
+                <li>Optimización de la cadena de suministro y la logística</li>
+                <li>Mayor capacitación de personal</li>
+            </ul>
+        </div>
+        <div id="benefit-image">
+            <img src="./images/benefits.png" alt="Beneficios">
+        </div>
+        </div>
+        
+    </section>
+
+    <!-- Acerca de Nosotros -->
+    <section id="nosotros" class="nosotros">
+        <h2>Acerca de Nosotros</h2>
+        <div class="about-content">
+            <div class="about-item">
+                <h3>¿Quiénes somos?</h3>
+                <p>Somos una plataforma innovadora que busca utilizar la inteligencia artificial y la visión por computadora para mejorar la gestión de cultivos.</p>
+            </div>
+            <div class="about-item">
+                <h3>Misión</h3>
+                <p>Empoderar a los agricultores para usar la IA para mejorar el cuidado de cultivos y promover la agricultura sostenible y eficiente.</p>
+            </div>
+            <div class="about-item">
+                <h3>Visión</h3>
+                <p>Hacer que la tecnología sea un aliado claro para todos los agricultores, ayudando a sus cultivos y apoyando un futuro agrícola más sostenible y productivo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <img src="./TB2/images/logo.png" alt="Logo">
+        <div id="leftside">
+            <div id="extratext">
+                <p>Optimiza la gestión de tus cultivos de forma eficiente y segura descargando nuestra app para administradores</p>
+              </div>
+                <div id="buttons">
+                         <a href="https://play.google.com/store/apps"><img src="./TB2/images/googleplay.png" alt="Google Play"></a>
+                <a href="https://apps.apple.com"><img src="./TB2/images/appstore.png" alt="App Store"></a>
+
+                </div>
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Con nosotros, cuidar tus plantas es más fácil que nunca.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+    /* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background-color: #FFFFFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+main {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.navbar .logo img {
+    width: 150px;
+}
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.navbar .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+.cta-btn {
+    background-color: #4CAF4F;
+    padding: 12px 30px;
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Servicios */
+.servicios {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+.servicios h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.service-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+.service-card img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+.service-card h3 {
+    font-size: 1.6em;
+    margin-top: 20px;
+}
+.service-card p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Beneficios */
+.beneficios {
+    padding: 60px 20px;
+    background-color: #e3f1e2;
+    text-align: center;
+}
+.beneficios h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+#benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+#benefit-image img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 8%;
+}
+.benefit-list ul {
+    list-style: none;
+    font-size: 1.2em;
+    padding: 0;
+}
+.benefit-list li {
+    margin: 10px 0;
+}
+
+/* Acerca de Nosotros */
+.nosotros {
+    padding: 60px 20px;
+    text-align: center;
+}
+.nosotros h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    text-align: left;
+}
+.about-item {
+    display: flex;
+    flex-direction: row; /* ya que es contenido textual */
+    gap: 20px;
+    width: 100%; /* ocupamos todo el ancho */
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    align-content: center;
+    text-align: center;
+    color: #4CAF4F;
+    width: 100%;
+}
+.about-item p {
+    font-size: 1.1em;
+    width: 100%;
+}
+
+
+/* Contacto */
+#contacto {
+
+    display:  flex;
+    flex-direction: row;
+}
+#leftside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+#leftside #extratext {
+    width: 150px;
+    height: auto;
+    padding: 10%;
+    background-color: #4CAF4F;
+}
+#leftside #buttons {
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    gap: 10px;
+}
+#leftside #buttons a img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+</style>
